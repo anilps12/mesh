@@ -54,7 +54,7 @@ blocks:
           matrix:
             - env_var: ARCH
               values: ["arm64","amd64"]
-              uname -a
+                      uname -a
           commands:
             - make local-test
               
