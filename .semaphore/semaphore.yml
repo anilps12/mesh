@@ -53,7 +53,7 @@ blocks:
         - name: Unit Tests
           matrix:
             - env_var: ARCH
-              values: ["arm64","amd64"]
+              values: ["arm64"]
                       
           commands:
             - uname -a
